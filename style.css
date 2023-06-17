@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url(image/demon-slayer-season-3.webp);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo {
+    display: flex;
+    height: 100px;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    color: rgba(111, 111, 13, 0.775);
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1024;
+    height: 650px;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-container {
+    backdrop-filter: blur(5px);
+    display: flex;
+    flex-wrap: wrap;
+    height: 500px;
+    width: 1000px;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    box-shadow: 10px 10px 15px black;
+}
+
+.card {
+    display: flex;
+    width: 250px;
+    height: 350px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+.card-info {
+    position: absolute;
+    width: 250px;
+    height: 350px;
+    backdrop-filter: blur(5px);
+    bottom: 100%;
+}
+
+.card-1 {
+    width: 250px;
+    height: 350px;
+    background-image: url(image/inosuke.jpg);
+    background-size: cover;
+    box-shadow: 10px 10px 15px aqua;
+}
+
+.card-2 {
+    width: 250px;
+    height: 350px;
+    background-image: url(image/tanjiro.jpg);
+    background-size: cover;
+    box-shadow: 10px 10px 15px crimson;
+}
+
+.card-3 {
+    width: 250px;
+    height: 350px;
+    background-image: url(image/Zenitsu_II.webp);
+    background-size: cover;
+    box-shadow: 10px 10px 15px yellow;
+}
+
+.card-1:hover {
+    transform: scale(1.1);
+    transition: 0.3s ease;
+    bottom: 50%;
+}
+
+.card-2:hover {
+    transform: scale(1.1);
+    transition: 0.3s ease;
+    bottom: 50%;
+}
+
+.card-3:hover {
+    transform: scale(1.1);
+    transition: 0.3s ease;
+    bottom: 50%;
+}
